@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REsponsive Bootstrap Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Link -->
+
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+</head>
+<body>
+   <!-- top navbar -->
+   <div class="top-navbar">
+    <div class="top-txt">
+       <h4>Welcome to our store</h4>
+    </div>
+    <div class="other-links">
+        <button id="btn-login"><a href="login.html">Login</a></button>
+        <button id="btn-signup"><a href="signin.html">Sign in</a></button>
+</div>
+</div>
+<!-- top navbar -->
+ 
+    <!-- Navbar Start -->
+ 
+    <nav class="navbar navbar-expand-lg  " id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" id="logo"><img src="./slide-1.png" style="height: 60px;width: 60px;" alt=""><span>L</span>AVEiZ</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto gap-4  ">
+            <li class="nav-item ">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">Service</a>
+            </li>
+          </ul>
+          <form class="d-flex ">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  <!-- Navbar End -->
+
+ 
+  
+     <!-- Home Section Start -->
+     <div class="home">
+      <div class="content">
+      <h4> Ignite Your Soul</h4>
+      <h4> with Fragrances </h4>
+      <h4>of Victory!</h4>
+        <a href="#shop">Shop Now</a>
+      </div>
+  </div>
+  <!-- Home Section End -->
+
+  <!-- top cards -->
+  <div class="container" id="top-cards">
+    <div class="main-txt">
+      <h1><span>UPTO </span>50% OFF</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card" style="background-color: #a9a9a926;">
+                <img src="https://img.freepik.com/premium-photo/perfume-glass-bottle-podium-mock-up-banner-generative-ai-art-realistic-3d-illustration_154797-166.jpg" alt="">
+                <div class="card-img-overlay">
+                    <h5 class="card-titel">UPTO 50% OFF</h5>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card" style="background-color: #a9a9a926;"> 
+               <img src="./images/women-perfume-glass-bottle-advertising-promotional-mockup-product-packaging-rendering-closeup_327903-702000.jpg">
+                <div class="card-img-overlay">
+                    <h5 class="card-titel">UPTO 50% OFF</h5>
+                   
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card" style="background-color: #a9a9a926;">
+                <img src="https://t4.ftcdn.net/jpg/05/63/53/09/360_F_563530993_un1qgmwQa0GUr8CeP9czsh0NnJutF1U8.jpg" alt="">
+                <div class="card-img-overlay">
+                    <h5 class="card-titel">UPTO 50% OFF</h5>
+                   <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- top cards -->
+
+
+
+   <!-- banner -->
+   <div class="banner">
+    <div class="content">
+        <h1>Get Up To 50% Off</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, animi?</p>
+        <div id="bannerbtn"><button>SHOP NOW</button></div>
+    </div>
+</div>
+<!-- banner -->
+
+ 
+
+
+
+ <!-- product cards -->
+ <div class="container" id="product-cards">
+  <div class="main-txt">
+    <h1><span>Products </span></h1>
+  </div>
+  <!-- <h1 class="text-center">PRODUCT</h1> -->
+  <div class="row" style="margin-top: 30px;">
+      <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+              <img src="./images/product-1.png" alt="">
+              <div class="card-body">
+                  <h3>Inhale</h3>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                  <div class="star">
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                  </div>
+                  <h5>5000.PKR  <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+              <img src="./images/product-2.png" alt="">
+              <div class="card-body">
+                  <h3>Seductiva</h3>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                  <div class="star">
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                  </div>
+                  <h5>3800.PKR <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+              <img src="./images/product-3.png" alt="">
+              <div class="card-body">
+                  <h3>Labbra</h3>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                  <div class="star">
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                  </div>
+                  <h5>4000.PKR <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+              <img src="./images/product-4.png" alt="">
+              <div class="card-body">
+                  <h3>Pour Vous</h3>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                  <div class="star">
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                  </div>
+                  <h5>3000.PKR <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="row" style="margin-top: 30px;">
+      <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+              <img src="./images/product-5.png" alt="">
+              <div class="card-body">
+                  <h3>Scentist</h3>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                  <div class="star">
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                  </div>
+                  <h5>6000.PKR <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+              <img src="./images/product-6.png" alt="">
+              <div class="card-body">
+                  <h3>Tempest</h3>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                  <div class="star">
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                  </div>
+                  <h5>4500.PKR <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+              <img src="./images/product-7.png" alt="">
+              <div class="card-body">
+                  <h3>Beastly</h3>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                  <div class="star">
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                  </div>
+                  <h5>3300.PKR  <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+              <img src="./images/product-4.png" alt="">
+              <div class="card-body">
+                  <h3>Elixier</h3>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                  <div class="star">
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                  </div>
+                  <h5>4800.PKR  <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+              </div>
+          </div>
+      </div>
+  </div>
+  <a href="clothe.html" id="viewmorebtn">View More</a>
+</div>
+<!-- product cards -->
+
+
+
+
+
+
+
+
+      
+  <!-- footer -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-contact">
+          <h3>L<span>AVEiZ </span></h3>
+          
+           
+            <p>
+              Karachi <br>
+              Sindh <br>
+              Pakistan <br>
+            </p>
+            <strong>Phone:</strong> +000000000000000 <br>
+            <strong>Email:</strong> Laveizperfume@.com <br>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Usefull Links</h4>
+           <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+           </ul>
+          </div>
+
+
+
+         
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+
+           <ul>
+            <li><a href="#">Enchanted Night</a></li>
+            <li><a href="#">Velvet Dream</a></li>
+            <li><a href="#">Golden Aura</a></li>
+            <li><a href="#">Aurora Mist</a></li>
+            <li><a href="#">Mystic Breeze</a></li>
+           </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, quibusdam.</p>
+
+            <div class="socail-links mt-3">
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-skype"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Sumaira Daniyal</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="#">Sumaira Daniyal</a>
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
+
+
+
+
+
+
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"
+></script>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+</html>
